@@ -1,0 +1,35 @@
+
+Tailwindcss frontend UI designer
+
+hello i am looking for a webdesigner who is versed in postcss, and tailwindcss.
+
+I am looking for someone to update my invoice template to spruce it up. I am not great with the design or colours, fonts, etc...
+I'd like you to make the invoice a bit polished up so that it looks similar to
+
+- https://pin.it/5jlPjOH
+- https://pin.it/2wcSJxr
+- https://pin.it/tppYaeA
+
+Please use our company's colour style: https://www.colourlovers.com/palette/4408425/ICELABZ
+
+It needs to be mobile friendly, and responsive to desktop too.
+
+Here are some major improvements I need:
+
+- improve the button colors and softness
+- update the h4 for "request change" and text area + button so that it looks nice and within the overall style of the invoice.
+- Adjust the facilities and attendance table to have a border
+- make the check icon centered in the table
+- make the copyright section is fixed to the bottom of the invoice.
+- Adjust the quote line item table so that the fonts are normalised
+- adjust the client's name and the company address contact section to make it look nice and brushed up.
+- improve the table layout
+- improve the description which shows how long the quote is valid, the quote reference and date.
+- I've also attached our logo for you to include in the invoice. Can you add this in the header and footer of the template.
+
+Can you please submit some sample works for me to look at.
+
+I've attached the .vue file and .postcss file of the current invoice view
+I've also included the screenshot of the page that I can see.
+
+THE £3000 BUDGET IS FOR THE PROJECT, PLEASE PRICE FOR THIS PARTICULAR TASK.
