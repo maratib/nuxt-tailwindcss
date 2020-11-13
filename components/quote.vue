@@ -1,12 +1,13 @@
 <template>
   <div class="quickWrap">
     <div class="flex flex-col">
-      <div class="quoteHeader flex">
-        <div class="w-1/2 flex items-center justify-items-center">
+      <div class="quoteHeader flex items-center">
+        <div class="w-1/2 flex items-center text-center">
           <img src="@/docs/logo.jpg" alt="" class="w-1/3" />
         </div>
-        <div class="w-1/2 quoteHeader">
+        <div class="w-1/2 quoteHeader text-right">
           <h1>Invoice</h1>
+          <p>Date: 23rd of October 2020</p>
         </div>
       </div>
       <div class="quoteContacts">
