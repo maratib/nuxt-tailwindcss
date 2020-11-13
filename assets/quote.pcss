@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    @apply bg-gray-200;
+    overflow: scroll;
+}
+
+.quickWrap {
+    @apply mx-auto px-16 pt-4 bg-white border-l border-r border-gray-400;
+    max-width: 900px;
+    @screen phone {
+        @apply w-full px-2;
+    }
+    font-family: 'Open Sans', sans-serif;
+}
+
+.quoteHeader {
+    & > h1 {
+        @apply text-5xl text-blue-700 font-bold capitalize;
+    }
+
+    @screen nottablet{
+
+    @apply mb-20;
+    }
+
+    @screen tablet{
+        @apply mb-6;
+    }
+}
+
+.quoteContacts {
+    @apply flex;
+    @screen phone{
+        @apply flex-col-reverse;
+    }
+    @screen notphone{
+        @apply flex-row;
+    }
+    min-height: 120px;
+
+    & > div {
+        @apply p-3;
+        @screen phone   {
+            @apply w-full;
+        }
+        @screen notphone{
+            @apply w-1/3;
+        }
+
+
+    }
+
+
+}
+
+
+.quoteTables {
+
+    & > table {
+        @apply w-full mt-6 text-gray-900 ;
+
+        & > thead {
+            @apply border-b-2 border-gray-800 font-semibold border-gray-500;
+            @apply tracking-wider;
+        }
+
+        & > tbody {
+            & > tr {
+                @apply text-sm;
+                & > td {
+                    @apply py-2;
+
+                }
+            }
+        }
+
+        & > tfoot {
+            @apply text-black border-t-2 border-b mt-3 border-gray-800;
+        }
+    }
+
+
+}
+
+
+.quoteSmallDetails{
+    @apply my-2;
+
+    @screen phone{
+        @apply grid grid-cols-2 gap-2;
+    }
+
+    @screen notphone{
+        @apply flex flex-row;
+    }
+
+
+    &>div{
+        @apply text-xs mr-2 px-4 py-2 inline-block;
+
+        background-color: #ecf5f9;
+    }
+}
+
+
+.btn-green{
+    background-color: #41852f;
+}
+
+
+.tnc{
+    @apply mt-2;
+    &>li{
+        @apply text-xs;
+    }
+}
