@@ -4,11 +4,18 @@ export default {
     title: 'invoice',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: "https://kit.fontawesome.com/2def6b71ee.js",
+        crossorigin: "anonymous",
+        body: true
+      }
     ]
   },
 

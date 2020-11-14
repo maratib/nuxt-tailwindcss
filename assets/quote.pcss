@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
 
 body{
-    @apply bg-gray-200;
-    overflow: scroll;
+    @apply bg-gray-200 p-0;
+    overflow-y: scroll;
 }
 
 .quickWrap {
-    @apply mx-auto px-16 pt-4 bg-white border-l border-r border-gray-400;
+    @apply mx-auto px-20 pt-4 bg-white border-l border-r border-gray-400;
     max-width: 900px;
     @screen phone {
-        @apply w-full px-2;
+        @apply w-full p-0;
     }
     font-family: 'Open Sans', sans-serif;
 }
 
+.text-primary {
+  color: #0d83d5;
+}
+
+.bg-primary {
+  background: #0d83d5;
+}
+
 .quoteHeader {
     & > h1 {
-        @apply text-5xl text-blue-700 font-bold uppercase;
+        @apply font-extrabold uppercase;
+        color: #0d83d5;
     }
 
     @screen nottablet{
-
-    @apply mb-20;
     }
 
     @screen tablet{
-        @apply mb-6;
     }
 }
 
@@ -85,21 +91,11 @@ body{
 
 
 .quoteSmallDetails{
-    @apply my-2;
-
-    @screen phone{
-        @apply grid grid-cols-2 gap-2;
-    }
-
-    @screen notphone{
-        @apply flex flex-row;
-    }
-
-
+    @apply my-4;
+    
     &>div{
-        @apply text-xs mr-2 px-4 py-2 inline-block;
-
-        background-color: #ecf5f9;
+        @apply px-0 py-2 inline-block font-semibold;
+        color: #0d83d5;
     }
 }
 
@@ -110,8 +106,24 @@ body{
 
 
 .tnc{
-    @apply mt-2;
+    @apply mt-2 mb-6;
     &>li{
         @apply text-xs;
+        color: #0d83d5;
     }
+}
+
+.top-right-shape {
+  clip-path: polygon(83% 0, 100% 0, 100% 100%, 83% 79%);
+  background: #0d83d5;
+  width: 170px;
+  height: 15%;
+}
+
+.bottom-left-shape {
+  clip-path: polygon(83% 0, 100% 23%, 100% 100%, 83% 100%);
+  background: #0d83d5;
+  width: 170px;
+  height: 15%;
+  left: -15.7%;
 }
